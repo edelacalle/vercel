@@ -7,13 +7,10 @@ import Button from 'react-bootstrap/Button';
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <h1>HOla soy el dos </h1>
       <p>Hello World! This is the Home pag2 <Button>HOLA</Button></p>
       <p>
         Visit the <Link href="/about">About</Link> page.
-      </p>
-	  <p>
-        SOY DOS <Link href="/dost">DOS</Link> page.
       </p>
     </div>
   )
