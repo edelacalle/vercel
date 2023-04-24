@@ -1,0 +1,17 @@
+
+{
+    "common":{
+      "title":"titulo",
+      "about":"acerca de"
+    },
+    "one":"uno",
+    "test":"testeo",
+    "myKey": "es translation",
+    "nested": {
+      "key": "nested es translation"
+    },
+    "index":{
+      "headline":"hola soy headline"
+    }
+
+  }
