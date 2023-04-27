@@ -1,0 +1,23 @@
+
+{
+    "common":{
+      "#myapp": "Mi aplicacion",
+      "title":"titulo",
+      "about":"acerca de",
+      "news":"noticias",
+      "#copyright":"©Copyright 2023 ® Cox Energy | Todos los Derechos Reservados"
+    },
+    "noticias":{
+      "1":"COX en los medios"
+    },
+    "one":"uno",
+    "test":"testeo",
+    "myKey": "es translation",
+    "nested": {
+      "key": "nested es translation"
+    },
+    "index":{
+      "headline":"hola soy headline"
+    }
+
+  }
