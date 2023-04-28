@@ -3,8 +3,8 @@ export default {
     titleTemplate : 'COX | %s',
     openGraph: {
       type: 'website',
-      locale: 'en_IE',
-      url: 'https://www.url.ie/',
+      locale: 'es_ES',
+      url: 'https://www.coxenergy.com/',
       siteName: 'SiteName',
     },
     twitter: {
