@@ -11,5 +11,10 @@ module.exports = {
   },
   footer:{
     title:"#copyright"
+  },
+  seo:{
+    "/es/noticias" :{"title":"Noticias","description":"Las Noticias"},
+    "/en/noticias" :{"title":"News","description":"News Description"},
+
   }
 }
