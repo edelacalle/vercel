@@ -1,9 +1,10 @@
 import {getStaticPaths, getLang, t}  from "../../i18n";
 import { Layout } from '@/components/Layout/Layout';
 import { Carousel } from "react-bootstrap";
+import Link from 'next/link';
 
 function myBody(props){
-  return (  <Carousel slide={false}>
+  return (  <Carousel slide={false} className="p-2" >
   <Carousel.Item>
     <img
       className="d-block w-100"
@@ -12,7 +13,7 @@ function myBody(props){
     />
     <Carousel.Caption>
       <h3>Creemos en un mundo que funcione con energias renovables 100% verdes</h3>
-      <p>Invitacion conferencia resultados 1T - 2023  Leer</p>
+      <p>Invitacion conferencia resultados 1T - 2023  <Link target="_blank"  href="https://coxenergy.sharepoint.com/:b:/s/pubdoc/Ed_ZZvOotrdEjly7okKkL58BiVds73X4aDmmSdlwv4NqwQ?e=4%3a1aQFpF&at=9">Leer</Link></p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -24,7 +25,7 @@ function myBody(props){
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
+      <h3>Queremos ser protagonistas </h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </Carousel.Caption>
   </Carousel.Item>
